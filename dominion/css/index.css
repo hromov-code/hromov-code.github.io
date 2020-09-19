@@ -154,6 +154,10 @@ body {
   z-index: 1;
 }
 
+.billboard-back{
+  width:100%;
+}
+
 .header-callback{
   width: 327px;
   height: 60px;
