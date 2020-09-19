@@ -96,3 +96,45 @@ textarea:focus {
 body {
   font-family: 'Oswald-Regular'; }
 
+.header{
+  height: 95px;
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.header__box{
+  display: flex;
+  flex-direction: row;
+}
+
+.header__box ul{
+  display: flex;
+  flex-direction: row;
+}
+
+.menu li > a{
+  font-size: 30px;
+}
+
+.lang-section li{
+  font-size: 25px;
+}
+
+.lang-section li:active{
+  text-decoration: underline;
+}
+
+.header-callback{
+  font-size: 30px;
+}
+
+.billboard{
+  position: relative;
+  top: 0;
+  z-index: 1;
+}
+
+
