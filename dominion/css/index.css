@@ -48,12 +48,6 @@ html {
   -moz-scroll-behavior: smooth;
   scroll-behavior: smooth; }
 
-h2 {
-  font-size: 40px;
-  line-height: 66px;
-  font-weight: 700;
-  text-align: center; }
-
 .wrapper {
   overflow: hidden;
   height: 100%;
@@ -100,6 +94,5 @@ textarea:focus {
   box-shadow: none !important; }
 
 body {
-  background: #31297F;
-  font-family: 'Axiforma'; }
+  font-family: 'Oswald-Regular'; }
 
