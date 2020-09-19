@@ -69,6 +69,13 @@ p, div, a, h1, h2, h3, h4, h5, button, ul, li, input, textarea {
 a,
 a:hover,
 a:active,
+a:focus{
+  color: inherit;
+}
+
+a,
+a:hover,
+a:active,
 a:focus,
 button,
 button:hover,
@@ -103,16 +110,29 @@ body {
   width: 100%;
   display: flex;
   align-items: center;
+  color: #F4F2EC;
+  background-color: rgba(14, 38, 70, 0.6);
+  text-transform: uppercase;
 }
 
 .header__box{
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .header__box ul{
   display: flex;
   flex-direction: row;
+}
+
+.menu li{
+  padding: 15px;
+}
+
+.menu li:last-child{
+  color: #F59401;
 }
 
 .menu li > a{
@@ -121,14 +141,11 @@ body {
 
 .lang-section li{
   font-size: 25px;
+  padding: 10px;
 }
 
-.lang-section li:active{
+.lang-section li:checked{
   text-decoration: underline;
-}
-
-.header-callback{
-  font-size: 30px;
 }
 
 .billboard{
@@ -137,4 +154,13 @@ body {
   z-index: 1;
 }
 
-
+.header-callback{
+  width: 327px;
+  height: 60px;
+  font-size: 30px;
+  background: rgba(190, 38, 35, 0.9);
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
