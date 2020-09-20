@@ -149,13 +149,51 @@ body {
 }
 
 .billboard{
-  position: relative;
+  /* position: relative; */
   top: 0;
   z-index: 1;
 }
 
 .billboard-back{
   width:100%;
+  position: absolute;
+}
+
+.billboard__offer {
+  right: 0;
+  position: relative;
+  float: right;
+  top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.billboard__offer h2{
+  font-size: 75px;
+  font-family: 'Oswald-SemiBold';
+  color: #F4F2EC;
+}
+
+.billboard__offer h3{
+  font-size: 55px;
+  font-family: 'Oswald-SemiBold';
+  color: rgba(244, 242, 236, 0.8);
+}
+
+.billboard__offer img{
+  position: relative;
+  top: -60px;
+}
+.billboard__offer h1{
+  position: relative;
+  top: -60px;
+  font-size: 100px;
+  font-family: 'Oswald-Bold';
+  color: rgba(210, 14, 10, 0.95);
+  text-shadow:0px 1px 0 rgb(255,255,255, 0.35),0px -1px 0 rgb(255,255,255, 0.35),1px 0px 0 rgb(255,255,255, 0.35),-1px 0px 0 rgb(255,255,255, 0.35),1px 1px 0 rgb(255,255,255, 0.35),1px -1px 0 rgb(255,255,255, 0.35),-1px 1px 0 rgb(255,255,255, 0.35),-1px -1px 0 rgb(255,255,255, 0.35),0px 2px 0 rgb(255,255,255, 0.35),0px -2px 0 rgb(255,255,255, 0.35),2px 0px 0 rgb(255,255,255, 0.35),-2px 0px 0 rgb(255,255,255, 0.35),2px 2px 0 rgb(255,255,255, 0.35),2px -2px 0 rgb(255,255,255, 0.35),-2px 2px 0 rgb(255,255,255, 0.35),-2px -2px 0 rgb(255,255,255, 0.35),0px 3px 0 rgb(255,255,255, 0.35),0px -3px 0 rgb(255,255,255, 0.35),3px 0px 0 rgb(255,255,255, 0.35),-3px 0px 0 rgb(255,255,255, 0.35),3px 3px 0 rgb(255,255,255, 0.35),3px -3px 0 rgb(255,255,255, 0.35),-3px 3px 0 rgb(255,255,255, 0.35),-3px -3px 0 rgb(255,255,255, 0.35);
+  -webkit-text-shadow:0px 1px 0 rgb(255,255,255, 0.35),0px -1px 0 rgb(255,255,255, 0.35),1px 0px 0 rgb(255,255,255, 0.35),-1px 0px 0 rgb(255,255,255, 0.35),1px 1px 0 rgb(255,255,255, 0.35),1px -1px 0 rgb(255,255,255, 0.35),-1px 1px 0 rgb(255,255,255, 0.35),-1px -1px 0 rgb(255,255,255, 0.35),0px 2px 0 rgb(255,255,255, 0.35),0px -2px 0 rgb(255,255,255, 0.35),2px 0px 0 rgb(255,255,255, 0.35),-2px 0px 0 rgb(255,255,255, 0.35),2px 2px 0 rgb(255,255,255, 0.35),2px -2px 0 rgb(255,255,255, 0.35),-2px 2px 0 rgb(255,255,255, 0.35),-2px -2px 0 rgb(255,255,255, 0.35),0px 3px 0 rgb(255,255,255, 0.35),0px -3px 0 rgb(255,255,255, 0.35),3px 0px 0 rgb(255,255,255, 0.35),-3px 0px 0 rgb(255,255,255, 0.35),3px 3px 0 rgb(255,255,255, 0.35),3px -3px 0 rgb(255,255,255, 0.35),-3px 3px 0 rgb(255,255,255, 0.35),-3px -3px 0 rgb(255,255,255, 0.35);
+  -moz-text-shadow:0px 1px 0 rgb(255,255,255, 0.35),0px -1px 0 rgb(255,255,255, 0.35),1px 0px 0 rgb(255,255,255, 0.35),-1px 0px 0 rgb(255,255,255, 0.35),1px 1px 0 rgb(255,255,255, 0.35),1px -1px 0 rgb(255,255,255, 0.35),-1px 1px 0 rgb(255,255,255, 0.35),-1px -1px 0 rgb(255,255,255, 0.35),0px 2px 0 rgb(255,255,255, 0.35),0px -2px 0 rgb(255,255,255, 0.35),2px 0px 0 rgb(255,255,255, 0.35),-2px 0px 0 rgb(255,255,255, 0.35),2px 2px 0 rgb(255,255,255, 0.35),2px -2px 0 rgb(255,255,255, 0.35),-2px 2px 0 rgb(255,255,255, 0.35),-2px -2px 0 rgb(255,255,255, 0.35),0px 3px 0 rgb(255,255,255, 0.35),0px -3px 0 rgb(255,255,255, 0.35),3px 0px 0 rgb(255,255,255, 0.35),-3px 0px 0 rgb(255,255,255, 0.35),3px 3px 0 rgb(255,255,255, 0.35),3px -3px 0 rgb(255,255,255, 0.35),-3px 3px 0 rgb(255,255,255, 0.35),-3px -3px 0 rgb(255,255,255, 0.35);
 }
 
 .header-callback{
