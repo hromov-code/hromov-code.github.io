@@ -101,7 +101,8 @@ textarea:focus {
   box-shadow: none !important; }
 
 body {
-  font-family: 'Oswald-Regular'; }
+  font-family: 'Oswald-Regular';
+  background: #E5E5E5; }
 
 .header{
   height: 95px;
@@ -152,6 +153,7 @@ body {
   /* position: relative; */
   top: 0;
   z-index: 1;
+  height: 920px;
 }
 
 .billboard-back{
@@ -233,4 +235,105 @@ body {
   align-items: center;
   justify-content: center;
   margin: 20px auto 0 auto;
+}
+
+/* start features */
+
+.features{
+
+}
+
+.features__title{
+  font-family: 'Oswald-Medium';
+  font-size: 36px;
+  line-height: 53px;
+  color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+  margin: 30px 0;
+}
+
+.features__list{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.features__list-item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: min-content;
+}
+
+.features__list-item img{
+  opacity: 0.8;
+  width: fit-content;
+}
+
+.features__list-item p{
+  font-size: 36px;
+  font-family: 'Oswald-Regular';
+  text-align: center;
+  color: rgba(0, 0, 0, 0.45);
+  width: 95%;
+  line-height: 30px;
+  margin-top: 30px;
+}
+
+/* end features */
+
+/* start shedule */
+
+.shedule{
+  margin-top: 100px;
+}
+
+.shedule h2{
+  position: relative;
+  top: 0;
+  text-align: center;
+  font-size: 45px;
+  line-height: 67px;
+  font-family: 'Oswald-Medium';
+  color: rgba(0, 0, 0, 0.7);
+  margin-bottom: 70px;
+}
+
+.shedule h2::before{
+  content: '';
+  position: absolute;
+  border-top: 3px solid rgba(0, 0, 0, 0.45);
+  width: 40%;
+  height: 3px;
+  left: 0;
+  top: 50%;
+}
+.shedule h2::after{
+  content: '';
+  position: absolute;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.45);
+  width: 40%;
+  height: 3px;
+  right: 0;
+  top: 50%;
+}
+.shedule__list-item--day{
+  width: 110px;
+  height: 110px;
+  background: rgba(0, 80, 138, 0.05);
+  border: 2px solid rgba(0, 0, 0, 0.21);
+  font-family: 'Oswald-Medium';
+  font-size: 45px;
+  line-height: 67px;
+  color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.shedule__list-item--hours{
+  font-size: 30px;
+  line-height: 44px;
+  color: rgba(0, 0, 0, 0.7);
+  font-family: 'Oswald-Medium';
 }
