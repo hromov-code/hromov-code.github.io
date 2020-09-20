@@ -317,6 +317,16 @@ body {
   right: 0;
   top: 50%;
 }
+.shedule__list{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.shedule__list-item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .shedule__list-item--day{
   width: 110px;
   height: 110px;
@@ -336,4 +346,10 @@ body {
   line-height: 44px;
   color: rgba(0, 0, 0, 0.7);
   font-family: 'Oswald-Medium';
+  margin-top: 10px;
 }
+
+/* end shedule */
+
+/* start services */
+
