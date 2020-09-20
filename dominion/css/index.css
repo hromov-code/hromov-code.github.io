@@ -534,14 +534,14 @@ body {
   line-height: 96px;
   position: relative;
   top: -20px;
-  padding: 0 35px;
+  padding: 0 10px;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 .complex__prices h1 img{
   position: relative;
-  /* top: -7px; */
   
 }
 
