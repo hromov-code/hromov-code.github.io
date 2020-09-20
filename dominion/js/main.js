@@ -78,3 +78,26 @@ function openService(evt, serviceName) {
   document.getElementById(serviceName).style.display = "block";
   evt.currentTarget.className += " active";
 }
+
+var accordion = function () {
+  var data = $(".accordion").attr("data-accordion");
+
+  $(".accord-hed").on("click", function(){
+    if (data === "close"){
+      $(".accord-body").slideUp();
+      if ($(this).hasClass("active")){
+        $(this).toggleClass("active");
+      }
+      else{
+        $(".accord-hed").removeClass("active");
+        $(this).toggleClass("active");
+      }
+    }
+    else{
+      $(this).toggleClass("active");
+    }
+    $(this).next(".accord-body").not(":animated").slideToggle();
+  })
+}
+
+accordion();
