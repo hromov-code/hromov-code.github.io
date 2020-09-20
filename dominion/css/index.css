@@ -191,9 +191,9 @@ body {
   font-size: 100px;
   font-family: 'Oswald-Bold';
   color: rgba(210, 14, 10, 0.95);
-  text-shadow:0px 1px 0 rgb(255,255,255, 0.35),0px -1px 0 rgb(255,255,255, 0.35),1px 0px 0 rgb(255,255,255, 0.35),-1px 0px 0 rgb(255,255,255, 0.35),1px 1px 0 rgb(255,255,255, 0.35),1px -1px 0 rgb(255,255,255, 0.35),-1px 1px 0 rgb(255,255,255, 0.35),-1px -1px 0 rgb(255,255,255, 0.35),0px 2px 0 rgb(255,255,255, 0.35),0px -2px 0 rgb(255,255,255, 0.35),2px 0px 0 rgb(255,255,255, 0.35),-2px 0px 0 rgb(255,255,255, 0.35),2px 2px 0 rgb(255,255,255, 0.35),2px -2px 0 rgb(255,255,255, 0.35),-2px 2px 0 rgb(255,255,255, 0.35),-2px -2px 0 rgb(255,255,255, 0.35),0px 3px 0 rgb(255,255,255, 0.35),0px -3px 0 rgb(255,255,255, 0.35),3px 0px 0 rgb(255,255,255, 0.35),-3px 0px 0 rgb(255,255,255, 0.35),3px 3px 0 rgb(255,255,255, 0.35),3px -3px 0 rgb(255,255,255, 0.35),-3px 3px 0 rgb(255,255,255, 0.35),-3px -3px 0 rgb(255,255,255, 0.35);
-  -webkit-text-shadow:0px 1px 0 rgb(255,255,255, 0.35),0px -1px 0 rgb(255,255,255, 0.35),1px 0px 0 rgb(255,255,255, 0.35),-1px 0px 0 rgb(255,255,255, 0.35),1px 1px 0 rgb(255,255,255, 0.35),1px -1px 0 rgb(255,255,255, 0.35),-1px 1px 0 rgb(255,255,255, 0.35),-1px -1px 0 rgb(255,255,255, 0.35),0px 2px 0 rgb(255,255,255, 0.35),0px -2px 0 rgb(255,255,255, 0.35),2px 0px 0 rgb(255,255,255, 0.35),-2px 0px 0 rgb(255,255,255, 0.35),2px 2px 0 rgb(255,255,255, 0.35),2px -2px 0 rgb(255,255,255, 0.35),-2px 2px 0 rgb(255,255,255, 0.35),-2px -2px 0 rgb(255,255,255, 0.35),0px 3px 0 rgb(255,255,255, 0.35),0px -3px 0 rgb(255,255,255, 0.35),3px 0px 0 rgb(255,255,255, 0.35),-3px 0px 0 rgb(255,255,255, 0.35),3px 3px 0 rgb(255,255,255, 0.35),3px -3px 0 rgb(255,255,255, 0.35),-3px 3px 0 rgb(255,255,255, 0.35),-3px -3px 0 rgb(255,255,255, 0.35);
-  -moz-text-shadow:0px 1px 0 rgb(255,255,255, 0.35),0px -1px 0 rgb(255,255,255, 0.35),1px 0px 0 rgb(255,255,255, 0.35),-1px 0px 0 rgb(255,255,255, 0.35),1px 1px 0 rgb(255,255,255, 0.35),1px -1px 0 rgb(255,255,255, 0.35),-1px 1px 0 rgb(255,255,255, 0.35),-1px -1px 0 rgb(255,255,255, 0.35),0px 2px 0 rgb(255,255,255, 0.35),0px -2px 0 rgb(255,255,255, 0.35),2px 0px 0 rgb(255,255,255, 0.35),-2px 0px 0 rgb(255,255,255, 0.35),2px 2px 0 rgb(255,255,255, 0.35),2px -2px 0 rgb(255,255,255, 0.35),-2px 2px 0 rgb(255,255,255, 0.35),-2px -2px 0 rgb(255,255,255, 0.35),0px 3px 0 rgb(255,255,255, 0.35),0px -3px 0 rgb(255,255,255, 0.35),3px 0px 0 rgb(255,255,255, 0.35),-3px 0px 0 rgb(255,255,255, 0.35),3px 3px 0 rgb(255,255,255, 0.35),3px -3px 0 rgb(255,255,255, 0.35),-3px 3px 0 rgb(255,255,255, 0.35),-3px -3px 0 rgb(255,255,255, 0.35);
+  text-shadow:0px 1px 0 rgba(255,255,255, 0.35),0px -1px 0 rgba(255,255,255, 0.35),1px 0px 0 rgba(255,255,255, 0.35),-1px 0px 0 rgba(255,255,255, 0.35),1px 1px 0 rgba(255,255,255, 0.35),1px -1px 0 rgba(255,255,255, 0.35),-1px 1px 0 rgba(255,255,255, 0.35),-1px -1px 0 rgba(255,255,255, 0.35),0px 2px 0 rgba(255,255,255, 0.35),0px -2px 0 rgba(255,255,255, 0.35),2px 0px 0 rgba(255,255,255, 0.35),-2px 0px 0 rgba(255,255,255, 0.35),2px 2px 0 rgba(255,255,255, 0.35),2px -2px 0 rgba(255,255,255, 0.35),-2px 2px 0 rgba(255,255,255, 0.35),-2px -2px 0 rgba(255,255,255, 0.35),0px 3px 0 rgba(255,255,255, 0.35),0px -3px 0 rgba(255,255,255, 0.35),3px 0px 0 rgba(255,255,255, 0.35),-3px 0px 0 rgba(255,255,255, 0.35),3px 3px 0 rgba(255,255,255, 0.35),3px -3px 0 rgba(255,255,255, 0.35),-3px 3px 0 rgba(255,255,255, 0.35),-3px -3px 0 rgba(255,255,255, 0.35);
+  -webkit-text-shadow:0px 1px 0 rgba(255,255,255, 0.35),0px -1px 0 rgba(255,255,255, 0.35),1px 0px 0 rgba(255,255,255, 0.35),-1px 0px 0 rgba(255,255,255, 0.35),1px 1px 0 rgba(255,255,255, 0.35),1px -1px 0 rgba(255,255,255, 0.35),-1px 1px 0 rgba(255,255,255, 0.35),-1px -1px 0 rgba(255,255,255, 0.35),0px 2px 0 rgba(255,255,255, 0.35),0px -2px 0 rgba(255,255,255, 0.35),2px 0px 0 rgba(255,255,255, 0.35),-2px 0px 0 rgba(255,255,255, 0.35),2px 2px 0 rgba(255,255,255, 0.35),2px -2px 0 rgba(255,255,255, 0.35),-2px 2px 0 rgba(255,255,255, 0.35),-2px -2px 0 rgba(255,255,255, 0.35),0px 3px 0 rgba(255,255,255, 0.35),0px -3px 0 rgba(255,255,255, 0.35),3px 0px 0 rgba(255,255,255, 0.35),-3px 0px 0 rgba(255,255,255, 0.35),3px 3px 0 rgba(255,255,255, 0.35),3px -3px 0 rgba(255,255,255, 0.35),-3px 3px 0 rgba(255,255,255, 0.35),-3px -3px 0 rgba(255,255,255, 0.35);
+  -moz-text-shadow:0px 1px 0 rgba(255,255,255, 0.35),0px -1px 0 rgba(255,255,255, 0.35),1px 0px 0 rgba(255,255,255, 0.35),-1px 0px 0 rgba(255,255,255, 0.35),1px 1px 0 rgba(255,255,255, 0.35),1px -1px 0 rgba(255,255,255, 0.35),-1px 1px 0 rgba(255,255,255, 0.35),-1px -1px 0 rgba(255,255,255, 0.35),0px 2px 0 rgba(255,255,255, 0.35),0px -2px 0 rgba(255,255,255, 0.35),2px 0px 0 rgba(255,255,255, 0.35),-2px 0px 0 rgba(255,255,255, 0.35),2px 2px 0 rgba(255,255,255, 0.35),2px -2px 0 rgba(255,255,255, 0.35),-2px 2px 0 rgba(255,255,255, 0.35),-2px -2px 0 rgba(255,255,255, 0.35),0px 3px 0 rgba(255,255,255, 0.35),0px -3px 0 rgba(255,255,255, 0.35),3px 0px 0 rgba(255,255,255, 0.35),-3px 0px 0 rgba(255,255,255, 0.35),3px 3px 0 rgba(255,255,255, 0.35),3px -3px 0 rgba(255,255,255, 0.35),-3px 3px 0 rgba(255,255,255, 0.35),-3px -3px 0 rgba(255,255,255, 0.35);
 }
 
 .header-callback{
@@ -205,4 +205,32 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.billboard__offer-contact{
+  position: relative;
+  bottom: -160px;
+}
+
+.billboard__offer-contact p{
+  color: rgba(244, 242, 236, 0.8);
+  font-size: 30px;
+  font-family: 'Oswald-Regular';
+  text-align: center;
+}
+
+.billboard__offer-contact a{
+  background: rgba(244, 242, 236, 0.25);
+  border: 3px solid #F4F2EC;
+  box-sizing: border-box;
+  border-radius: 30px;
+  font-size: 36px;
+  color: #F4F2EC;
+  font-family: 'Oswald-Regular';
+  width: 292px;
+  height: 78px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto 0 auto;
 }
