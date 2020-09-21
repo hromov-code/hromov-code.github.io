@@ -79,6 +79,8 @@ function openService(evt, serviceName) {
   evt.currentTarget.className += " active";
 }
 
+// services tabs
+
 var accordion = function () {
   var data = $(".accordion").attr("data-accordion");
 
@@ -101,3 +103,24 @@ var accordion = function () {
 }
 
 accordion();
+
+// end services tabs
+
+// start koch tabs
+
+function openWash(evt, washName) {
+  var i, tabcontentKoch, tablinksKoch;
+
+  tabcontentKoch = document.getElementsByClassName("tabcontent-koch");
+  for (i = 0; i < tabcontentKoch.length; i++) {
+    tabcontentKoch[i].style.display = "none";
+  }
+
+  tablinksKoch = document.getElementsByClassName("koch__list-item");
+  for (i = 0; i < tablinksKoch.length; i++) {
+    tablinksKoch[i].className = tablinksKoch[i].className.replace(" active", "");
+  }
+
+  document.getElementById(washName).style.display = "block";
+  evt.currentTarget.className += " active";
+}

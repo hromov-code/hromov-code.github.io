@@ -483,6 +483,7 @@ body {
   font-family: 'Oswald-Regular';
   font-size: 15px;
   line-height: 22px;
+  text-align: center;
   color: rgba(0, 0, 0, 0.8);
 }
 
@@ -528,7 +529,17 @@ body {
     background: rgba(0,0,0,0) url(/img/cross.svg) no-repeat;
     background-size:100% 100%;
 }
-
+.complex__prices .not-sale{
+  font-family: 'Oswald-Medium';
+  font-size: 65px;
+  line-height: 96px;
+  position: relative;
+  top: -20px;
+  padding: 0 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .complex__prices h1{
   font-family: 'Oswald-Medium';
   font-size: 65px;
@@ -553,4 +564,171 @@ body {
   text-align: left;
   bottom: -10px;
   width: 55px;
+}
+
+/* end services */
+
+/* start koch */
+
+.koch{
+  background-image: url(/img/koch-back.png);
+  background-repeat: no-repeat;
+  /* background-size: contain; */
+  background-position: center;
+  background-position-y: 400px;
+  margin-top: 80px;
+  height: auto;
+}
+
+.koch__main-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.koch__main-title h2{
+  font-family: 'Oswald-Medium';
+  font-size: 50px;
+  line-height: 74px;
+  color: rgba(0, 0, 0, 0.81);
+}
+
+.koch__list{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.koch__list-item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.koch__list-item--title{
+  font-family: 'Oswald-Medium';
+  font-size: 55px;
+  line-height: 82px;
+  color: #000000;
+  opacity: 0.6;
+}
+
+.koch__list-item--description{
+  font-family: 'Oswald-Medium';
+  font-size: 30px;
+  line-height: 44px;
+  color: #000000;
+  opacity: 0.6;
+}
+
+.koch__list-item img{
+  opacity: 0.6;
+}
+
+.koch__list-item.active img,
+.koch__list-item.active .koch__list-item--description,
+.koch__list-item.active .koch__list-item--title{
+  opacity: 1;
+}
+
+/* .services__list-item:active img, 
+.services__list-item:active .services__list-item--description,
+.services__list-item:active .services__list-item--title{
+  opacity: 0.85;
+} */
+
+.tabcontent-koch{
+  display: none;
+}
+
+.koch__tabs-content{
+  margin-top: 70px;
+}
+
+.koch__tabs-content-item{
+  position: relative;
+  width: 100%;
+  height: 90px;
+  background: rgba(3, 18, 23, 0.72);
+  margin-bottom: 10px;
+  padding: 11px 50px 20px 50px;
+}
+
+.koch__tabs-content-item h3{
+  font-family: 'Oswald-Medium';
+  font-size: 40px;
+  line-height: 59px;
+  /* padding: 11px 0 20px 50px; */
+  color: rgba(244, 242, 236, 0.94);
+}
+
+.koch__phaza{
+  display: flex;
+  align-items: center;
+  width: 35%;
+  height: 100%;
+  justify-content: space-around;
+  position: absolute;
+  right: 75px;
+  top: -4px;
+  float: right;
+  /* padding: 11px 0 20px 50px; */
+}
+
+.koch__phaza-single{
+  display: flex;
+  align-items: center;
+  width: 21.5%;
+  height: 100%;
+  justify-content: space-around;
+  position: absolute;
+  right: 0;
+  top: -4px;
+  float: right;
+  /* padding: 11px 0 20px 50px; */
+}
+
+.two-phaza span:first-child,
+.three-phaza span:first-child{
+  font-family: 'Oswald-Medium';
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: rgba(244, 242, 236, 0.94);
+  width: min-content;
+  display: inline-block;
+}
+
+.koch__phaza-price{
+  position: relative;
+  font-family: 'Oswald-Medium';
+  font-size: 65px;
+  line-height: 96px;
+  color: #F4F2EC;
+  left: 55px;
+}
+
+.koch__phaza-price::before{
+  content: '';
+  position: absolute;
+  left: -50px;
+  top: 33%;
+  background-image: url(/img/coin.svg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+.vertical-line{
+  font-family: 'Oswald-Medium';
+  font-size: 45px;
+  line-height: 67px;
+  left: 30px;
+  position: relative;
+  text-align: center;
+  color: rgba(244, 242, 236, 0.94);
 }

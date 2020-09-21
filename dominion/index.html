@@ -211,7 +211,7 @@
                     <div class="col-12">
                         <h2>ПРЕДОСТАВЛЯЕМЫЕ УСЛУГИ</h2>
                         <div class="services__list">
-                            <div class="services__list-item" onclick="openService(event, '1')">
+                            <div class="services__list-item active" onclick="openService(event, '1')">
                                 <div style='height:160px'><img src="img/mini 1.png" alt=""></div>
                                 <p class="services__list-item--title">
                                     I категория
@@ -249,7 +249,7 @@
                             </div>
                         </div>
                         <div class="services__tabs-content">
-                            <div id="1" class="tabcontent accordion" data-accordion="open">
+                            <div id="1" class="tabcontent accordion" data-accordion="open" style="display: block;">
                                 <div class="services__tabs-content-item accord-hed">
                                     <h3>
                                         КОМПЛЕКС УСЛУГИ
@@ -287,14 +287,18 @@
 
                                 <div class="complex">
                                     <h2>
-                                        КОМПЛЕКС  
+                                        КОМПЛЕКС-ЭКСПРЕСС  
                                     </h2>
                                     <p>
-                                        мойка,хол/воск,пылесос салона+баг.,влаж.уборка,стекла,начерчение резины
+                                        мойка,коврики,пылесос салона,влаж.уборка
                                     </p>
+                                    <h3 class="sale" style="visibility: hidden;">
+                                        Акционная цена
+                                    </h3>
                                     <div class="complex__prices">
-                                        <h1>
-                                            250
+                                        <h1 class="not-sale">
+                                            <img src="img/uah-black.svg" alt="">
+                                            180
                                         </h1>
                                     </div>
                                     
@@ -429,6 +433,212 @@
             </div>
         </section>
 
+        <section class="koch" id="koch">
+            <div class="container">
+                <div class="row no-gutters">
+                    <div class="col-12">
+                        <div class="koch__main-title">
+                            <h2>АВТОМОЙКА ПРИМЕНЯЕТ АВТОКОСМЕТИКУ</h2>
+                            <img src="img/koch.svg" alt="">
+                        </div>
+                        <div class="koch__list">
+                            <div class="koch__list-item active" onclick="openWash(event, 'koch-1')">
+                                <div style='height:160px'><img src="img/mini 1.png" alt=""></div>
+                                <p class="koch__list-item--title">
+                                    I категория
+                                </p>
+                                <p class="koch__list-item--description">
+                                    (смарт, мини)
+                                </p>
+                            </div>
+                            <div class="koch__list-item" onclick="openWash(event, 'koch-2')">
+                                <div style='height:160px'> <img src="img/car 1.png" alt=""></div>
+                                <p class="koch__list-item--title">
+                                    II категория
+                                </p>
+                                <p class="koch__list-item--description">
+                                    (седан, хэтчбек)
+                                </p>
+                            </div>
+                            <div class="koch__list-item" onclick="openWash(event, 'koch-3')">
+                                <div style='height:160px'><img src="img/car (2) 1.png" alt=""></div>
+                                <p class="koch__list-item--title">
+                                    III категория
+                                </p>
+                                <p class="koch__list-item--description">
+                                    (универсал, кроссовер)
+                                </p>
+                            </div>
+                            <div class="koch__list-item" onclick="openWash(event, 'koch-4')">
+                                <div style='height:160px'> <img src="img/jeep 1.png" alt=""></div>
+                                <p class="koch__list-item--title">
+                                    IV категория
+                                </p>
+                                <p class="koch__list-item--description">
+                                    (джип, внедорожник, минивен)
+                                </p>
+                            </div>
+                        </div>
+                        <div class="koch__tabs-content">
+                            <div id="koch-1" class="tabcontent-koch" style="display: block;">
+                                <div class="koch__tabs-content-item">
+                                    <h3>
+                                        МОЙКА
+                                    </h3>
+                                    <div class="koch__phaza">
+                                        <div class="two-phaza">
+                                            <span>
+                                                2-х 
+                                                фазная
+                                            </span>
+                                            <span class="koch__phaza-price">
+                                                400
+                                            </span>
+                                        </div>
+                                        <span class="vertical-line">|</span>
+                                        <div class="three-phaza">
+                                            <span>
+                                                3-х 
+                                                фазная
+                                            </span>
+                                            <span class="koch__phaza-price">
+                                                500
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="koch__tabs-content-item">
+                                    <h3>
+                                        КОМПЛЕКС
+                                    </h3>
+                                    <div class="koch__phaza">
+                                        <div class="two-phaza">
+                                            <span>
+                                                2-х 
+                                                фазная
+                                            </span>
+                                            <span class="koch__phaza-price">
+                                                500
+                                            </span>
+                                        </div>
+                                        <span class="vertical-line">|</span>
+                                        <div class="three-phaza">
+                                            <span>
+                                                3-х 
+                                                фазная
+                                            </span>
+                                            <span class="koch__phaza-price">
+                                                800
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="koch__tabs-content-item">
+                                    <h3>
+                                        КОНДИЦИАНИРОВАНИЕ КОЖИ
+                                    </h3>
+                                    <div class="koch__phaza-single">
+                                        <div class="three-phaza">
+                                            <span>
+                                             
+                                            </span>
+                                            <span class="koch__phaza-price">
+                                                400
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="koch__tabs-content-item">
+                                    <h3>
+                                        ОЧИСТКА ДИСКОВ (1шт) 
+                                    </h3>
+                                    <div class="koch__phaza-single">
+                                        <div class="three-phaza">
+                                            <span>
+                                             
+                                            </span>
+                                            <span class="koch__phaza-price">
+                                                150
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="koch__tabs-content-item">
+                                    <h3>
+                                        КОНСЕРВАЦИЯ ШИН
+                                    </h3>
+                                    <div class="koch__phaza-single">
+                                        <div class="three-phaza">
+                                            <span>
+                                             
+                                            </span>
+                                            <span class="koch__phaza-price">
+                                                150
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="koch__tabs-content-item">
+                                    <h3>
+                                        АНТИДОЖДЬ
+                                    </h3>
+                                    <div class="koch__phaza-single">
+                                        <div class="three-phaza">
+                                            <span>
+                                             
+                                            </span>
+                                            <span class="koch__phaza-price">
+                                                500
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="koch__tabs-content-item">
+                                    <h3>
+                                        ВОСК
+                                    </h3>
+                                    <div class="koch__phaza-single">
+                                        <div class="three-phaza">
+                                            <span>
+                                             
+                                            </span>
+                                            <span class="koch__phaza-price">
+                                                140
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="koch-2" class="tabcontent-koch">
+                                <div class="koch__tabs-content-item">
+                                    <h3>
+                                        МОЙКА
+                                    </h3>
+                                   
+                                </div>
+                            </div>
+                            <div id="koch-3" class="tabcontent-koch">
+                                <div class="koch__tabs-content-item">
+                                    <h3>
+                                        МОЙКА
+                                    </h3>
+                                   
+                                </div>
+                            </div>
+                            <div id="koch-4" class="tabcontent-koch">
+                                <div class="koch__tabs-content-item">
+                                    <h3>
+                                        МОЙКА
+                                    </h3>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <footer class="footer" id="footer">
             <div class="container-flex">
                 <div class="row no-gutters">
@@ -436,54 +646,13 @@
                         <div class="footer__box">
                             <img src="img/logo 4.png" alt="" class="logo">
                             <ul>
-                                <!-- <li>
-                                    <a href="#">What is SIMIA </a>
-                                </li>
-                                <li>
-                                    <a href="#">What can you do here</a>
-                                </li>
-                                <li>
-                                    <a href="#">What How does it work</a>
-                                </li>
-                                <li>
-                                    <a href="#">How do you communicate</a>
-                                </li> -->
+                                
                             </ul>
                         </div>
                         <div class="footer__button">
-                            <div class="six_social">
-                                <div class="social_img1">
-                                    <div class="social_img2">
-                                        <a href="#" class="social_img3">
-                                            <img src="img/twitter.svg" alt="">
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="social_img1">
-                                    <div class="social_img2">
-                                        <a href="#" class="social_img3">
-                                            <img src="img/facebook.svg" alt="">
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="social_img1">
-                                    <div class="social_img2">
-                                        <a href="#" class="social_img3">
-                                            <img src="img/youtube.svg" alt="">
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="social_img1">
-                                    <div class="social_img2">
-                                        <a href="#" class="social_img3">
-                                            <img src="img/instagram.svg" alt="">
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
                             <div class="copyright">
                                 <p>
-                                    Copyright © 2020 SIMIA Space Team | Powered by SIMIA Space Team
+                                    Copyright
                                 </p>
                             </div>
                         </div>
